@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="stroke:black; fill:none; stroke-width:0.5pt; stroke-linejoin:round; text-anchor:middle" font-family="Helvetica, Arial, FreeSans, Sans, sans, sans-serif">
+
+<g>
+
+<path d="M85.0,123.5 A2.5,2.5 0,0,1 87.5,121.0 A2.5,2.5 0,0,1 90.0,123.5 L90.0,126.0 L87.5,126.0 A2.5,2.5 0,0,1 85.0,123.5 " fill="black" stroke="none" />
+
+<path d="M85.0,133.5 A2.5,2.5 0,0,1 87.5,131.0 L90.0,131.0 L90.0,133.5 L90.0,136.0 L87.5,136.0 A2.5,2.5 0,0,1 85.0,133.5 " fill="black" stroke="none" />
+
+<path d="M85.0,143.5 A2.5,2.5 0,0,1 87.5,141.0 L90.0,141.0 L90.0,143.5 L90.0,146.0 L87.5,146.0 A2.5,2.5 0,0,1 85.0,143.5 " fill="black" stroke="none" />
+
+<path d="M85.0,153.5 A2.5,2.5 0,0,1 87.5,151.0 L90.0,151.0 L90.0,153.5 L90.0,156.0 L87.5,156.0 A2.5,2.5 0,0,1 85.0,153.5 " fill="black" stroke="none" />
+
+<path d="M85.0,163.5 A2.5,2.5 0,0,1 87.5,161.0 L90.0,161.0 L90.0,163.5 L90.0,166.0 L87.5,166.0 A2.5,2.5 0,0,1 85.0,163.5 " fill="black" stroke="none" />
+
+<path d="M85.0,173.5 A2.5,2.5 0,0,1 87.5,171.0 L90.0,171.0 L90.0,173.5 A2.5,2.5 0,0,1 87.5,176.0 A2.5,2.5 0,0,1 85.0,173.5 " fill="black" stroke="none" />
+
+<rect x="90.0" y="126.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="90.0" y="136.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="90.0" y="146.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="90.0" y="156.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="90.0" y="166.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M95.0,123.5 A2.5,2.5 0,0,1 97.5,121.0 A2.5,2.5 0,0,1 100.0,123.5 L100.0,126.0 L97.5,126.0 L95.0,126.0 L95.0,123.5 " fill="black" stroke="none" />
+
+<rect x="95.0" y="131.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="95.0" y="141.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="95.0" y="151.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="95.0" y="161.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M95.0,173.5 L95.0,171.0 L97.5,171.0 L100.0,171.0 L100.0,173.5 A2.5,2.5 0,0,1 97.5,176.0 A2.5,2.5 0,0,1 95.0,173.5 " fill="black" stroke="none" />
+
+<rect x="100.0" y="126.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="100.0" y="136.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="100.0" y="146.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="100.0" y="156.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="100.0" y="166.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M105.0,123.5 A2.5,2.5 0,0,1 107.5,121.0 A2.5,2.5 0,0,1 110.0,123.5 L110.0,126.0 L107.5,126.0 L105.0,126.0 L105.0,123.5 " fill="black" stroke="none" />
+
+<rect x="105.0" y="131.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="105.0" y="141.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="105.0" y="151.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="105.0" y="161.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M105.0,173.5 L105.0,171.0 L107.5,171.0 L110.0,171.0 L110.0,173.5 A2.5,2.5 0,0,1 107.5,176.0 A2.5,2.5 0,0,1 105.0,173.5 " fill="black" stroke="none" />
+
+<rect x="110.0" y="126.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="110.0" y="136.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="110.0" y="146.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="110.0" y="156.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="110.0" y="166.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M115.0,123.5 A2.5,2.5 0,0,1 117.5,121.0 A2.5,2.5 0,0,1 120.0,123.5 L120.0,126.0 L117.5,126.0 L115.0,126.0 L115.0,123.5 " fill="black" stroke="none" />
+
+<rect x="115.0" y="131.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="115.0" y="141.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="115.0" y="151.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<rect x="115.0" y="161.0" width="5.0" height="5.0" fill="black" stroke="none" />
+
+<path d="M115.0,173.5 L115.0,171.0 L117.5,171.0 L120.0,171.0 L120.0,173.5 A2.5,2.5 0,0,1 117.5,176.0 A2.5,2.5 0,0,1 115.0,173.5 " fill="black" stroke="none" />
+
+<path d="M120.0,128.5 L120.0,126.0 L122.5,126.0 A2.5,2.5 0,0,1 125.0,128.5 A2.5,2.5 0,0,1 122.5,131.0 L120.0,131.0 L120.0,128.5 " fill="black" stroke="none" />
+
+<path d="M120.0,138.5 L120.0,136.0 L122.5,136.0 A2.5,2.5 0,0,1 125.0,138.5 A2.5,2.5 0,0,1 122.5,141.0 L120.0,141.0 L120.0,138.5 " fill="black" stroke="none" />
+
+<path d="M120.0,148.5 L120.0,146.0 L122.5,146.0 A2.5,2.5 0,0,1 125.0,148.5 A2.5,2.5 0,0,1 122.5,151.0 L120.0,151.0 L120.0,148.5 " fill="black" stroke="none" />
+
+<path d="M120.0,158.5 L120.0,156.0 L122.5,156.0 A2.5,2.5 0,0,1 125.0,158.5 A2.5,2.5 0,0,1 122.5,161.0 L120.0,161.0 L120.0,158.5 " fill="black" stroke="none" />
+
+<path d="M120.0,168.5 L120.0,166.0 L122.5,166.0 A2.5,2.5 0,0,1 125.0,168.5 A2.5,2.5 0,0,1 122.5,171.0 L120.0,171.0 L120.0,168.5 " fill="black" stroke="none" />
+
+</g>
+
+</svg>
+

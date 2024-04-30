@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencv_pattern"
+version = "0.1.0"
+authors = [
+    {name = "Alfie"},
+]
+description = "A simple OpenCV pattern generation python package"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "opencv-python", "pyyaml", "svglib", "reportlab"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alfieroddan/pattern-generation-opencv"
+"Bug Tracker" = "https://github.com/alfieroddan/pattern-generation-opencv/issues"
+
+[tool.setuptools]
+packages = ["opencv_pattern"]
+include-package-data = true
+
+[project.scripts]
+pattern = "opencv_pattern_tools.gen_pattern:main"
+
+[tool.setuptools.package-data]
+pattern_tools = ["*.json.gz"]

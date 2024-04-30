@@ -1,0 +1,11 @@
+aruco_marker_size: 10.0
+columns: 8
+dict_file: DICT_ARUCO_ORIGINAL.json.gz
+from_config: null
+output: charuco_board.svg
+p_type: charuco_board
+page_size: A4
+radius_rate: 5.0
+rows: 11
+square_size: 20.0
+units: mm
