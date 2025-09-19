@@ -189,3 +189,74 @@ rows: 11
 square_size: 20.0
 units: mm
 ```
+
+## API
+
+Example of how to run in the API:
+
+```python
+# example_checkerboard.py
+from opencv_pattern.gen_pattern import PatternMaker
+
+"""
+Checkerboard example"""
+# Parameters (same as CLI args)
+cols = 8
+rows = 11
+output = "checkerboard.svg"
+units = "mm"
+square_size = 5.0
+radius_rate = 5.0
+page_width = 210   # A4 width in mm
+page_height = 297  # A4 height in mm
+markers = None
+aruco_marker_size = 10.0
+dict_file = "DICT_ARUCO_ORIGINAL.json"  # not used for checkerboard
+
+# Create the pattern maker
+pm = PatternMaker(
+    cols, rows, output, units,
+    square_size, radius_rate,
+    page_width, page_height,
+    markers, aruco_marker_size, dict_file
+)
+
+# Generate checkerboard
+pm.make_checkerboard_pattern()
+
+# Save result
+pm.save()
+print(f"Checkerboard saved to {output}")
+
+
+"""
+Charuco board example
+"""
+# Parameters
+cols = 8
+rows = 11
+output = "charuco_board.svg"
+units = "mm"
+square_size = 20.0      # must be larger than aruco_marker_size
+radius_rate = 5.0
+page_width = 210        # A4
+page_height = 297
+markers = None
+aruco_marker_size = 10.0
+dict_file = "DICT_4X4_1000.json.gz"  # bundled in the package
+
+# Create the pattern maker
+pm = PatternMaker(
+    cols, rows, output, units,
+    square_size, radius_rate,
+    page_width, page_height,
+    markers, aruco_marker_size, dict_file
+)
+
+# Generate ChArUco board
+pm.make_charuco_board()
+
+# Save result
+pm.save()
+print(f"ChArUco board saved to {output}")
+```
