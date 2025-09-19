@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opencv_pattern"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     {name = "Alfie"},
 ]
@@ -30,7 +30,7 @@ packages = ["opencv_pattern"]
 include-package-data = true
 
 [project.scripts]
-pattern = "opencv_pattern_tools.gen_pattern:main"
+pattern = "opencv_pattern.gen_pattern:main"
 
 [tool.setuptools.package-data]
 pattern_tools = ["*.json.gz"]
