@@ -1,0 +1,1 @@
+recursive-include opencv_pattern *.json.gz

@@ -29,6 +29,38 @@ import os
 import yaml
 
 
+def _open_dict_file(filename: str):
+    """
+    Try to open a dictionary file from package resources or local filesystem.
+    Returns a binary file-like object.
+    """
+    # First: check inside the installed package
+    resource = files("opencv_pattern").joinpath(filename)
+    if resource.is_file():
+        return resource.open("rb")
+
+    # Fallback: check local path
+    if os.path.exists(filename):
+        return open(filename, "rb")
+
+    # Nothing found
+    raise FileNotFoundError(f"Dictionary file not found: {filename}")
+
+
+def load_dictionary(dict_file: str):
+    """
+    Load a JSON or gzipped JSON dictionary, from package data or local path.
+    Returns a Python dict.
+    """
+    if dict_file.endswith(".gz"):
+        with _open_dict_file(dict_file) as f:
+            with gzip.open(f, "rt") as fin:
+                return json.load(fin)
+    else:
+        with _open_dict_file(dict_file) as f:
+            return json.load(f)
+
+
 class PatternMaker:
     def __init__(
         self,
@@ -229,15 +261,7 @@ class PatternMaker:
             print("Error: Aruco marker cannot be lager than chessboard square!")
             return
 
-        if self.dict_file.split(".")[-1] == "gz":
-            with gzip.open(self.dict_file, "r") as fin:
-                json_bytes = fin.read()
-                json_str = json_bytes.decode("utf-8")
-                dictionary = json.loads(json_str)
-
-        else:
-            f = open(self.dict_file)
-            dictionary = json.load(f)
+        dictionary = load_dictionary(self.dict_file)
 
         if dictionary["nmarkers"] < int(self.cols * self.rows / 2):
             print(
@@ -483,9 +507,13 @@ def main():
     square_size = args.square_size
     radius_rate = args.radius_rate
     aruco_marker_size = args.aruco_marker_size
-    dict_file = os.path.join(files("opencv_pattern").joinpath(args.dict_file))
-    if not os.path.exists(dict_file):
+
+    try:
+        _ = load_dictionary(args.dict_file)
         dict_file = args.dict_file
+    except FileNotFoundError as e:
+        print(e)
+        return
 
     if "page_width" and "page_height" in args:
         page_width = args.page_width
